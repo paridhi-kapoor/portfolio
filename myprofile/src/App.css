@@ -95,18 +95,10 @@ html {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.5); /* Semi-transparent overlay */
   transition: backdrop-filter 0.3s ease, background 0.3s ease;
-  z-index: 1; /* Ensures the overlay is behind the content */
 }
 
-.card:hover::before {
-  -webkit-backdrop-filter: blur(12px); /* Stronger blur effect on hover for Safari */
-  backdrop-filter: blur(12px); /* Stronger blur effect on hover */
-  background: rgba(255, 255, 255, 0.7); /* Slightly increase opacity on hover */
-}
-
-/* Ensure Content is Visible on Hover */
+.card img,
 .card h3,
 .card p,
 .card a {
@@ -212,7 +204,7 @@ html {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  
+
 }
 
 .typing-text {
