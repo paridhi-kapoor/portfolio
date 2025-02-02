@@ -1,0 +1,89 @@
+.certification {
+    height: auto;
+    background-color: #77cecd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative; /* To ensure correct layering with other sections */
+}
+
+.certification h2 {
+    text-align: center;
+    color: #131010;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+/* Grid container */
+.certification-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(2, auto); /* 2 rows, auto height */
+    gap: 20px; /* Space between cards */
+    justify-content: center;
+    max-width: 900px; /* Restrict max width */
+    width: 100%;
+}
+
+.certification-card {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgba(253, 253, 253, 0.92);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certification-card img {
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.certification-card h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #00796b;
+}
+
+.certification-card p {
+    font-size: 1em;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.certification-card a {
+    color: #00796b;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.certification-card a:hover {
+    color: #004d40;
+}
+
+.certification-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(10, 11, 11, 0.48);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .certification-container {
+        grid-template-columns: 1fr; /* Single column layout for smaller screens */
+    }
+}
