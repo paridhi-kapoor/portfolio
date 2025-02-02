@@ -6,7 +6,7 @@ const Header = () => {
     <header className="header">
       {/* Navbar Section */}
       <nav className="navbar">
-        <div className="logo"><span>Paridhi</span></div>
+        <div className="logo"><span>Paridhi's Portfolio</span></div>
         <ul className="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>

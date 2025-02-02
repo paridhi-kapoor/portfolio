@@ -7,14 +7,14 @@ const Projects = () => {
       <div className="project-cards">
 
         <div className="card">
-          <img src="portfolio.jpg" alt="Project 1" />
+          <img src="portfolio.png" alt="Project 1" />
           <h3>My Portfolio</h3>
-          <p>A personal portfolio to showcase my skills, projects, and achievements in web development. 
-            This site is responsive and has an interactive winter-themed design with creative hover effects.<br/>
+          <p>A personal portfolio to showcase skills, projects, and achievements in web development. 
+            This site is responsive and has an interactive design with creative hover effects.<br/>
             Tech Stack used : ReactJS, CSS, and JavaScript.
             </p>
           <a href="https://github.com/paridhi-kapoor/MyPortfolio" target="_blank" rel="noopener noreferrer">View on GitHub</a> <br/>
-          <a href="https://github.com/your-repo" target="_blank" rel="noopener noreferrer">Take A Look</a>
+          <a href="https://profile-website.vercel.app/" target="_blank" rel="noopener noreferrer">Take A Look</a>
 
         </div>
 
@@ -26,14 +26,16 @@ const Projects = () => {
             Tech Stack used : ReactJS, CSS, and JavaScript.
             </p>
           <a href="https://github.com/paridhi-kapoor/Personal_Task_Manager/tree/main" target="_blank" rel="noopener noreferrer">View on GitHub</a><br/>
-          <a href="https://github.com/your-repo" target="_blank" rel="noopener noreferrer">Take A Look</a>
+          <a href="https://todo.vercel.app/" target="_blank" rel="noopener noreferrer">Take A Look</a>
           </div>
 
           <div className="card">
-          <img src="" alt="Project 3" />
-          <h3>Weather App</h3>
-          <p>A brief description of the project.</p>
-          <a href="https://github.com/your-repo" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          <img src="dip.jpg" alt="Project 3" />
+          <h3>Air Hockey Game</h3>
+          <p>created an air hockey game using OpenCV, where players control paddles via hand movements detected by a webcam.
+           The game tracks the puck and paddles in real-time, allowing for interactive gameplay with smooth animations and dynamic interactions.<br/>
+            Tech Stack used : Python Libraries : OpenCV and Numpy , Image processing </p>
+          <a href="https://github.com/paridhi-kapoor/Air_Hockey_Game" target="_blank" rel="noopener noreferrer">View on GitHub</a>
           </div>
       </div>
     </section>
