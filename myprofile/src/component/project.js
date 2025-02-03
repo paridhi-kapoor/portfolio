@@ -30,12 +30,12 @@ const Projects = () => {
           </div>
 
           <div className="card">
-          <img src="dip.jpg" alt="Project 3" />
+          <img src="dip.png" alt="Project 3" />
           <h3>Air Hockey Game</h3>
-          <p>created an air hockey game using OpenCV, where players control paddles via hand movements detected by a webcam.
+          <p>Created an air hockey game using OpenCV, where players control paddles via hand movements detected by a webcam.
            The game tracks the puck and paddles in real-time, allowing for interactive gameplay with smooth animations and dynamic interactions.<br/>
             Tech Stack used : Python Libraries : OpenCV and Numpy , Image processing </p>
-          <a href="https://github.com/paridhi-kapoor/Air_Hockey_Game" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          <a href="https://github.com/paridhi-kapoor/AIR_HOCKEY" target="_blank" rel="noopener noreferrer">View on GitHub</a>
           </div>
       </div>
     </section>
