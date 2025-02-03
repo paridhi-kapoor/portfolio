@@ -36,7 +36,7 @@ const About = () => {
         <p><TypingEffect text={text} speed={50} /></p>
         <div className="cv-button">
         <button className="btn">
-          <a href="Paridhi_Kapoor.pdf" download="Paridhi_Kapoor.pdf">Download My CV</a>
+          <a href="Paridhi_Kapoor(2).pdf" download="Paridhi_Kapoor.pdf">Download My CV</a>
         </button>
       </div>
       </div>
