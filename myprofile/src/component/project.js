@@ -14,7 +14,7 @@ const Projects = () => {
             Tech Stack used : ReactJS, CSS, and JavaScript.
             </p>
           <a href="https://github.com/paridhi-kapoor/MyPortfolio" target="_blank" rel="noopener noreferrer">View on GitHub</a> <br/>
-          <a href="https://profile-website.vercel.app/" target="_blank" rel="noopener noreferrer">Take A Look</a>
+          <a href="https://portfolio-3ar9dzh60-paridhi-kapoors-projects.vercel.app/" target="_blank" rel="noopener noreferrer">Take A Look</a>
 
         </div>
 
@@ -26,7 +26,7 @@ const Projects = () => {
             Tech Stack used : ReactJS, CSS, and JavaScript.
             </p>
           <a href="https://github.com/paridhi-kapoor/Personal_Task_Manager/tree/main" target="_blank" rel="noopener noreferrer">View on GitHub</a><br/>
-          <a href="https://todo.vercel.app/" target="_blank" rel="noopener noreferrer">Take A Look</a>
+          <a href="https://personal-task-manager-qwndl7e24-paridhi-kapoors-projects.vercel.app/" target="_blank" rel="noopener noreferrer">Take A Look</a>
           </div>
 
           <div className="card">
